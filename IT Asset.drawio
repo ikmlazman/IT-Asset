@@ -19,6 +19,57 @@
         <mxCell id="abeEQ7c7rQH_-0KCB6Yx-7" value="View All Assets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="260" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-8" value="Asset List / Gallery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-9" value="Launch Camera Scanner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-10" value="Is QR Code / Asset ID Found in SharePoint?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-11" value="Tap &#39;+&#39; to Add New Asset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-12" value="New Asset Form" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-13" value="Validate Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-14" value="Show Validation Message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-15" value="Save to SharePoint List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-16" value="Power Automate Triggered" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-17" value="Generate QR Code and Save Image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-18" value="End" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-19" value="Asset Details View" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-20" value="Delete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-21" value="Power Automate: Archive/Delete" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-22" value="&quot;Asset Not Found&quot; Message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-23" value="Edit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="abeEQ7c7rQH_-0KCB6Yx-24" value="update Sharepoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
