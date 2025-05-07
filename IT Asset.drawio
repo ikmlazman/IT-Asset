@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="abeEQ7c7rQH_-0KCB6Yx-2" value="Process Flow IT Asset&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="30" width="60" height="30" as="geometry" />
+          <mxGeometry x="344" y="30" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
