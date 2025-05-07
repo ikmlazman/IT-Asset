@@ -1,0 +1,48 @@
+// IT Asset PowerApps Process Flow
+digraph {
+	rankdir=TB size="8,10"
+	START [label=START]
+	Home [label="Start Page (Home)"]
+	ViewAssets [label="View All Assets"]
+	QRScan [label="QR Code Scan"]
+	Gallery [label="Asset List / Gallery"]
+	Camera [label="Launch Camera Scanner"]
+	"QRFound?" [label="Is QR Code / Asset ID Found?"]
+	AssetDetail [label="Asset Detail View"]
+	AssetNotFound [label="\"Asset Not Found\" Message"]
+	Edit [label=Edit]
+	Delete [label=Delete]
+	UpdateSP [label="Update SharePoint"]
+	Archive [label="Power Automate: Archive/Delete"]
+	AddNew [label="Tap \"+\" to Add New Asset"]
+	Form [label="New Asset Form"]
+	"Validate?" [label="Validate Input?"]
+	ValidationMsg [label="Show Validation Message"]
+	SaveSP [label="Save to SharePoint List"]
+	PowerAutomate [label="Power Automate Triggered"]
+	GenerateQR [label="Generate QR Code and Save Image"]
+	CreatePDF [label="Generate PDF with QR & Save"]
+	END [label=END]
+	START -> Home
+	Home -> ViewAssets
+	Home -> QRScan
+	ViewAssets -> Gallery
+	Gallery -> AssetDetail
+	AssetDetail -> Edit
+	AssetDetail -> Delete
+	Edit -> UpdateSP
+	Delete -> Archive
+	Gallery -> AddNew
+	AddNew -> Form
+	Form -> "Validate?"
+	"Validate?" -> SaveSP [label=Yes]
+	"Validate?" -> ValidationMsg [label=No]
+	SaveSP -> PowerAutomate
+	PowerAutomate -> GenerateQR
+	GenerateQR -> CreatePDF
+	CreatePDF -> END
+	QRScan -> Camera
+	Camera -> "QRFound?"
+	"QRFound?" -> AssetDetail [label=Yes]
+	"QRFound?" -> AssetNotFound [label=No]
+}
